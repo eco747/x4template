@@ -1,5 +1,7 @@
 # x4template
 
+Basic template for a new X4 project.
+
 ## requirements
 
 1. visual studio code
