@@ -30,3 +30,5 @@ Now, when you want to work on your project,
 3. launch chrome (F5) and open developper tools (F12)
 
 The main source is src/main.ts
+
+Demos are available here: https://github.com/eco747/x4demos
