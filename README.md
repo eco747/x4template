@@ -15,7 +15,7 @@ Basic template for a new X4 project.
 ## initialization
 
 ```sh
-git clone --recurse-submodules https://github.com/eco747/x4template.git <your_folder_name>
+git clone https://github.com/eco747/x4template.git <your_folder_name>
 cd <your_folder_name>
 ./scripts/init.sh
 ```
@@ -36,8 +36,8 @@ Now, when you want to work on your project,
 The main source is src/main.ts
 
 ## Documentation
-- see x4 doc
-- see x4demos 
+- X4 repository is here: https://github.com/eco747/x4
+- Demos are available here: https://github.com/eco747/x4demos
 - generate documentation that will create a 'doc' folder
   ```
   npm run build_doc
