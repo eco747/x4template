@@ -6,3 +6,5 @@ mkdir src
 
 cp ./assets/index.html ./dist
 cp ./assets/*.less src
+cp -r ./assets/css ./dist
+cp ./assets/css/favicon.ico ./dist
