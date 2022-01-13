@@ -11,7 +11,7 @@ Basic template for a new X4 project.
 ## initialization
 
 ```sh
-git clone --recurse-submodules https://github.com/eco747/x4template.git <your_folder_name>
+git clone https://github.com/eco747/x4template.git <your_folder_name>
 cd <your_folder_name>
 ./init.sh
 ```
