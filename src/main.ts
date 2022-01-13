@@ -1,10 +1,13 @@
-import { Application, VLayout } from './x4deps.js';
+import { Application, VLayout, html } from './x4deps.js';
 
 /**
  * 
  */
 
 class MainFrame extends VLayout {
+	render( ) {
+		this.setContent( html`<h1>Hello from X4</h1>` )
+	}
 }
 
 /**
