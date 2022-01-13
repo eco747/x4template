@@ -1,11 +1,11 @@
 {
-	"main": "main.js",
-	"devDependencies": {
-		"@types/node": "^15.14.9",
-	},
-	"scripts": {
-		"build": "tsc -w"
-	},
-	"dependencies": {
-	}
+  "name": "demo01",
+  "version": "1.0.0",
+  "description": "demo 01",
+  "main": "main.js",
+  "scripts": {
+	"build": "tsc -w",
+	"serve": "serve ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

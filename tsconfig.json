@@ -14,10 +14,10 @@
 		"src/main.ts",
 	],
 	"include": [
-		"x4/**/*"
+		"x4/src/**/*"
 	],
 	"exclude": [
 //		"x4/smartedit.ts",
-//		"x4/hosts/nwjs*.ts"
+		"x4/src/hosts/**/*"
 	],
 }
