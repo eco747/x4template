@@ -6,6 +6,10 @@
   "scripts": {
 	"build": "tsc -w",
 	"serve": "serve ./dist",
-	"build_doc": "typedoc --tsconfig tsconfig.json --out doc ./x4/src/*.ts src/*.ts"
+	"build_doc": "typedoc --tsconfig tsconfig.json --out doc ./x4/src/*.ts src/*.ts",
+	"mkprod": "node scripts/mkprod.mjs"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.5"
   }
 }

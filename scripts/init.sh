@@ -4,3 +4,4 @@ mkdir dist -p
 cp ./assets/index.html ./dist
 cp -r ./assets/css ./dist
 cp ./assets/css/favicon.ico ./dist
+npm install
