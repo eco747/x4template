@@ -24,8 +24,6 @@ class DemoApp extends Application {
 
 
 const myApp = new DemoApp( );
-myApp.mainView = new MainFrame( {
-	flex: 1
-});
+myApp.mainView = new MainFrame( {} );
 
 
