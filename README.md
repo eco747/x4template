@@ -7,13 +7,17 @@ Basic template for a new X4 project.
 1. visual studio code
 2. typescript compiler 
 3. less compiler visual studio extension
+4. typedoc if you want a documentation about your project
+   npm install -g typedoc
+5. terser to create production site
+   npm install -g terser
 
 ## initialization
 
 ```sh
 git clone --recurse-submodules https://github.com/eco747/x4template.git <your_folder_name>
 cd <your_folder_name>
-./init.sh
+./scripts/init.sh
 ```
 
 Now open your visual studio.
@@ -30,3 +34,20 @@ Now, when you want to work on your project,
 3. launch chrome (F5) and open developper tools (F12)
 
 The main source is src/main.ts
+
+## Documentation
+- see x4 doc
+- see x4demos 
+- generate documentation that will create a 'doc' folder
+  ```
+  npm run build_doc
+  ```
+
+## Production build
+To build a production site, use mkprod, it will build a 'prod' folder
+```
+npm run mkprod
+```
+
+
+
