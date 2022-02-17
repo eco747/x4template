@@ -17,6 +17,7 @@ Basic template for a new X4 project.
 ```sh
 git clone https://github.com/eco747/x4template.git <your_folder_name>
 cd <your_folder_name>
+chmod +x ./scripts/init.sh
 ./scripts/init.sh
 ```
 
