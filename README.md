@@ -12,7 +12,7 @@ Basic template for a new X4 project.
    npm install -g typedoc
    ```sh
 5. terser to create production site
-   ```sh
+   ```
    npm install -g terser
    ```
 6. serve the little http server
