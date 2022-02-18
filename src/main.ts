@@ -1,4 +1,4 @@
-import { Application, VLayout, html } from './x4deps.js';
+import { Application, VLayout, Label, html } from './x4deps.js';
 
 /**
  * 
@@ -6,7 +6,9 @@ import { Application, VLayout, html } from './x4deps.js';
 
 class MainFrame extends VLayout {
 	render( ) {
-		this.setContent( html`<h1>Hello from X4</h1>` )
+		this.setContent( [
+			new Label( { tag: 'h1', text: "<h1>Hello from X4</h1>" } );
+		])
 	}
 }
 
