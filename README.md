@@ -11,6 +11,8 @@ Basic template for a new X4 project.
    npm install -g typedoc
 5. terser to create production site
    npm install -g terser
+6. serve the little http server
+   npm install -g serve
 
 ## initialization
 
