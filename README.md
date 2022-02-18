@@ -8,11 +8,17 @@ Basic template for a new X4 project.
 2. typescript compiler 
 3. less compiler visual studio extension
 4. typedoc if you want a documentation about your project
+   ```
    npm install -g typedoc
+   ```sh
 5. terser to create production site
+   ```sh
    npm install -g terser
+   ```
 6. serve the little http server
+   ```sh
    npm install -g serve
+   ```
 
 ## initialization
 
